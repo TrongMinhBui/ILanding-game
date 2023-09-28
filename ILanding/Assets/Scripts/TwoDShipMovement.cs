@@ -4,14 +4,14 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-public class ShipMovement : MonoBehaviour
+public class TwoDShipMovement : MonoBehaviour
 {
     public float speed;
 
     private Vector2 move;
 
     //private Vector3 move1;
-
+    
     
     
     public void OnMove(InputAction.CallbackContext context)
@@ -26,14 +26,15 @@ public class ShipMovement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { 
+        //Input.GetKey("space");
      movePlayer();   
     }
 
     public void movePlayer()
     {
         
-        Vector3 movement = new Vector3(move.x, 0f, move.y);
+        Vector3 movement = new Vector3(0f, move.y, move.x);
         
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
     }
