@@ -34,7 +34,7 @@ public class TwoDShipMovement : MonoBehaviour
     public void movePlayer()
     {
         
-        Vector3 movement = new Vector3(0f, move.y, move.x);
+        Vector3 movement = new Vector3( 0f, move.y, -move.x);
         
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
     }
