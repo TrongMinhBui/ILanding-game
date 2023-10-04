@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class ThreeDShipMovement : MonoBehaviour
 {
     public float speed;
-    private float maxSpeed = 200;
+    //private float maxSpeed = 200;
 
     private Vector3 flyingMovement;
     
