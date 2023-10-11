@@ -2,14 +2,14 @@
     "name": "Input Manager",
     "maps": [
         {
-            "name": "SpaceShip",
-            "id": "940d5e92-bfc2-4312-bfbe-d08733ff011b",
+            "name": "SpaceRocket",
+            "id": "43612abd-b40b-40cb-a144-707d676eec53",
             "actions": [
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "f2f3eb47-f466-4a7c-bcd0-d10285ff3276",
-                    "expectedControlType": "Vector3",
+                    "id": "dfd0c0aa-e27e-40f0-9718-d76e6a40bf62",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -18,7 +18,7 @@
             "bindings": [
                 {
                     "name": "2D Vector",
-                    "id": "de26ba32-b150-430d-acd9-2317446bc93d",
+                    "id": "c4643a43-0ba7-430b-94fd-de95779ef282",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -29,8 +29,8 @@
                 },
                 {
                     "name": "up",
-                    "id": "1b34694e-b2dc-475f-b0d6-e3bf8981a86d",
-                    "path": "<Keyboard>/space",
+                    "id": "0a05d3c1-ec68-4878-8401-4f9decb87cd2",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -40,7 +40,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "74545e3a-e8db-4fb6-9780-cd7ee2a53698",
+                    "id": "abf4f377-0ac4-48ed-91b1-673330e7df57",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
@@ -51,7 +51,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "562eab16-df34-4a4d-a718-bad2405ac639",
+                    "id": "5212d48f-f0a9-4dcd-ac4d-c5c821a849dd",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
@@ -62,7 +62,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "bac73dda-5fc3-4406-b503-01d789fddb8f",
+                    "id": "b7154527-c4e4-4595-98ea-aaa3462813ee",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
