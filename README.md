@@ -10,9 +10,9 @@ New Input system package if it aint in the project.
 Most of the code comes from the youtube videos I took some "inspirations" but I tried myself code some parts like the method in SpaceShip file were I implemented the new input system and combined it with the code I used from one of the youtube videos. Wanted to keep the game as simple as I wanted to even if it didn't get completed in time, wanted to add the power ups and both functional start menu and pause menu. I didnt use much of the Debug.Log() and debugging to see where each value were missing or how each individual code worked cause of the youtube video explaining already each code and method. Design wise of the game wasn't really much focused on, just took a Space ship from the asset store and wanted too add meteor/asteroid in the game and also the power ups.
 
 Instruction on how to play the game:
-"W" is for boosting the ship uppwards
-"A" for boosting to the left
-"D" for boosting to the right
+"UpArrow" is for boosting the ship uppwards
+"LeftArrow" for boosting to the left
+"RightArrow" for boosting to the right
 
 Source
 1.https://www.youtube.com/playlist?list=PLPV2KyIb3jR53Jce9hP7G5xC4O9AgnOuL
